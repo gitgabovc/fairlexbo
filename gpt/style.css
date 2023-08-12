@@ -1,0 +1,87 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de la sección hero */
+.hero {
+    background: url('hero-image.jpg') center/cover;
+    text-align: center;
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos de las secciones */
+.about, .practice-areas, .team {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.practice-areas ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.practice-areas li {
+    margin: 0 1rem;
+}
+
+.team-member {
+    margin: 2rem;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos del pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
