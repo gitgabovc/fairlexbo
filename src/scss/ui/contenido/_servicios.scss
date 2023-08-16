@@ -19,6 +19,13 @@
         }
     }
 
+    &__imagen-contenedor {
+        display: none;
+        @include m.tablet{
+            display: block;
+        }
+    }
+
     &__lista{
         @include m.tablet{
             @include m.grid(2, 2rem);
