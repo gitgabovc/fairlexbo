@@ -22,3 +22,22 @@
         grid-column: 2/8;
     }
 }
+
+.contacto-mensaje {
+    &__heading{
+        @include m.heading;
+    }
+    &__nombre, &__email, &__texto {
+        display: block;
+        width: 100%;
+        border: none;
+        margin-bottom: 2rem;
+    }
+    &__nombre, &__email {
+        padding: 2rem .8rem;
+    }
+    &__enlace{
+        @include m.boton(v.$primario, v.$blanco);
+        display: block;
+    }
+}
