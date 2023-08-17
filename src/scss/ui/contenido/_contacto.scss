@@ -1,0 +1,24 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.contacto {
+    margin-top: 5rem;
+    &__grid {
+        @include m.tablet{
+            @include m.grid(2, 10rem);
+        }
+    }
+
+    &__heading {
+        @include m.heading(true);
+    }
+
+    &__red {
+        @include m.grid(7, 1rem);
+        margin-bottom: 4rem;
+        background-color: v.$blanco;
+    }
+    &__contenido {
+        grid-column: 2/8;
+    }
+}
