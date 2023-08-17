@@ -15,23 +15,38 @@
 
     &__red {
         @include m.grid(7, 1rem);
-        margin-bottom: 4rem;
+        margin-bottom: 2.2rem;
         background-color: v.$blanco;
     }
     &__contenido {
         grid-column: 2/8;
+    }
+    &__titulo{
+        margin: 1.2rem 0;
+    }
+    &__enlace {
+        margin: 1.2rem 0;
+
     }
 }
 
 .contacto-mensaje {
     &__heading{
         @include m.heading;
+        @include m.tablet{
+            margin-bottom: 7rem;
+        }
     }
+
     &__nombre, &__email, &__texto {
         display: block;
         width: 100%;
         border: none;
         margin-bottom: 2rem;
+    }
+
+    &__texto{
+        margin-bottom:1rem;
     }
     &__nombre, &__email {
         padding: 2rem .8rem;
@@ -39,5 +54,8 @@
     &__enlace{
         @include m.boton(v.$primario, v.$blanco);
         display: block;
+        @include m.tablet{
+            display: inline-block;
+        }
     }
 }
