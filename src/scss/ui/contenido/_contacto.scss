@@ -28,6 +28,17 @@
         margin: 1.2rem 0;
 
     }
+
+    &__imagen-contenedor {
+        display: flex;
+        padding-left: .5rem;
+
+        @include m.tablet{
+            
+            padding: 0 .5rem;
+            padding-left: 1.5rem;
+        }
+    }
 }
 
 .contacto-mensaje {

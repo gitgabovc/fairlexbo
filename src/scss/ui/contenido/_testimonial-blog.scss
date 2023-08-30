@@ -89,5 +89,15 @@
         @include m.tablet{
             display: inline-block;
         }
+        &-all {
+            color: v.$primario;
+            border-bottom: 1px solid v.$primario;
+        }
     }
+
+    &-ver-all {
+        text-align: right;
+    }
+
+    
 }
