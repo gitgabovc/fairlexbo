@@ -121,9 +121,14 @@
 
     &__titulo {
         margin-bottom: 3rem;
+        text-align: center;
+        @include m.tablet{
+            text-align: left;
+        }
     }
 
     &__meta {
+        @include m.meta;
         @include m.tablet{
             display: flex;
             justify-content:space-between;
@@ -155,5 +160,14 @@
     &__parrafo {
         line-height: 2;
 
+    }
+
+    &__otras-entradas{
+        list-style: disc;
+        padding-left: 4rem;
+    }
+
+    &__lista {
+        margin-bottom: 1rem;
     }
 }
