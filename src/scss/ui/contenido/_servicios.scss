@@ -31,4 +31,59 @@
             @include m.grid(2, 2rem);
         }
     }
+
+    &__contenedor{
+        @include m.tablet{
+            
+        }
+    }
 }
+
+.servicio{
+    &__grid {
+        background-color: v.$blanco;
+        margin-top: 5rem;
+        border-radius: 2rem;
+        overflow: hidden;
+
+        @include m.tablet{
+            display: flex;
+
+        }
+    }
+
+    &__descripcion-p{
+        background-color: v.$blanco;
+        width: 100%;
+        padding: 4rem;
+        @include m.tablet{
+            width: 50%;
+            
+        }
+    }
+    
+    &__contenedor-img{
+        width: 100%;
+        @include m.tablet{
+            width: 50%;
+        }
+    }
+}
+
+.rev{
+    @include m.tablet{
+        flex-direction: row-reverse;
+    }
+}
+
+.header__heading-s,
+.header__texto-s
+{
+    text-align: center;
+}
+
+.header__heading-s
+{
+    margin-top: 3rem;
+}
+

@@ -48,3 +48,109 @@
         display: block;
     }
 }
+
+.p-nosotros{
+    margin-top: 8rem;
+
+    &__grid{
+        display: block;
+        @include m.tablet{
+            display: flex;
+            align-items: center;
+
+        }
+    }
+
+    &__imagen-contenedor{
+        min-width: 40rem;
+        width: 50%;
+    }
+
+    &__historia{
+        width: 100%;
+        @include m.tablet{
+            width:50%;
+            padding-left: 8rem;
+        }
+    }
+
+    &__imagen{
+        width: 100%;
+        display: block;
+    }
+
+    &__heading{
+        @include m.heading;
+    }
+}
+
+.mision-vision{
+    margin-top: 8rem;
+    &__grid{
+        display: block;
+        @include m.tablet{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+
+        }
+    }
+
+    &__imagen-contenedor{
+        min-width: 40rem;
+        width: 50%;
+    }
+
+    &__descripcion{
+        width: 100%;
+        @include m.tablet{
+            width:50%;
+            padding-right: 8rem;
+            
+        }
+    }
+    &__heading{
+        @include m.heading;
+    }
+}
+
+.valores{
+    margin-top: 8rem;
+
+    &__grid{
+        display: block;
+        @include m.tablet{
+            display: flex;
+            align-items: center;
+            
+        }
+    }
+
+    &__imagen-contenedor{
+        min-width: 40rem;
+        width: 50%;
+    }
+
+    &__descripcion{
+        width: 100%;
+        @include m.tablet{
+            width: 50%;
+            padding-left: 8rem;
+            
+        }
+    }
+
+    &__contenedor-texto{
+        padding-left: 4rem;
+        list-style: disc;
+        margin-top: 2rem;
+    }
+
+    &__item{
+        margin-bottom: 2rem;
+    }
+
+    &__heading{
+        @include m.heading;
+    }
+}
