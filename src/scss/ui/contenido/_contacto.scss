@@ -70,3 +70,18 @@
         }
     }
 }
+.cont{
+
+    &__header{
+        text-align: center;
+        max-width: 100rem;
+        margin: auto;
+        @include m.tablet{
+            padding: 8rem 7rem;
+        }
+    }
+
+    &__titulo{
+        text-align: center;
+    }
+}

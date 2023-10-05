@@ -26,6 +26,8 @@
         }
     }
 
+    
+
     &__lista{
         @include m.tablet{
             @include m.grid(2, 2rem);
@@ -67,6 +69,32 @@
         @include m.tablet{
             width: 50%;
         }
+    }
+
+    &__item{
+        background-color: v.$blanco;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        @include m.tablet{
+            margin-bottom: 0;
+            
+        }
+    }
+
+    &__titulo{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    &__img{
+        width: 9rem;
+        display: block;
     }
 }
 
