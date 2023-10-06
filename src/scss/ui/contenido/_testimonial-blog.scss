@@ -96,7 +96,13 @@
     }
 
     &-ver-all {
-        text-align: right;
+        color: v.$primario;
+        font-weight: bold;
+        text-align: center;
+        @include m.tablet{
+            text-align: right;
+            
+        }
     }
 
     
