@@ -40,3 +40,12 @@ ul {
     text-align:center !important;
     margin-top: 3rem;
 }
+
+#whatsapp-button {
+    position: fixed;
+    bottom: 5rem; /* Ajusta la distancia desde la parte inferior según tu preferencia */
+    right: 5rem; /* Ajusta la distancia desde el borde derecho según tu preferencia */
+    z-index: 9999; /* Asegura que el botón esté en la parte superior de otros elementos */
+    height: 4rem;
+    width: 4rem;
+}
