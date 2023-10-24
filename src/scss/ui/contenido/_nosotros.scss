@@ -3,14 +3,14 @@
 
 .nosotros {
     margin-top: 5rem;
-    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, v.$primario 50%, v.$primario 100%), url(../img/destacada.jpg);
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, v.$primario 50%, v.$primario 100%), url(../img/imgj/inner_card_12.jpg);
     background-size: 100%, cover;
-    background-position: center, -50rem -30rem;
+    background-position: center, -30rem -5rem;
     background-repeat: no-repeat;
 
     @include m.tablet{
-        background-image: linear-gradient(to right, transparent 0%, transparent 50%, v.$primario 50%, v.$primario 100%), url(../img/destacada.jpg);
-        background-position: center, -50rem center;
+        background-image: linear-gradient(to right, transparent 0%, transparent 50%, v.$primario 50%, v.$primario 100%), url(../img/imgj/inner_card_12.jpg);
+        background-position: center, -38rem -15rem;
     }
 
     &__grid {
