@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Fairlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <link rel="shortcut icon" href="build/img/logo.jpg" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__barra contenedor">
+        <div class="header__logo">
+          <a href="index_en.html">
+            <img
+              src="build/img/fairlexlogo1.png"
+              alt="logo de fairlexbo"
+              srcset="
+                build/img/fairlexlogo1.png 1x,
+                build/img/fairlexlogo2.png 2x
+              "
+            />
+          </a>
+        </div>
+        <nav class="navegacion">
+          <a href="about.html" class="navegacion__link">About Us</a>
+          <a href="services.html" class="navegacion__link">Services</a>
+          <a href="blog_en.html" class="navegacion__link">Blog</a>
+          <a href="#" class="navegacion__link">Proforma</a>
+          <a href="contact.html" class="navegacion__link active">Contact</a>
+          <div class="lang-menu">
+            <div class="selected-lang eng">Lenguaje</div>
+            <ul>
+              <li>
+                <a href="contact.html" class="de">English</a>
+              </li>
+              <li>
+                <a href="contacto.html" class="en">Español</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="contenedor">
+        <div class="cont__header">
+          <h1 class="header__heading cont__titulo">
+            Contact us to help you with your legal issues
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="contacto">
+      <div class="contacto__grid contenedor">
+        <div class="contacto__canales">
+          <h2 class="contacto__heading">Get in touch with <span>us</span></h2>
+          <p class="contacto__texto">
+            Contact us through our official channels or by leaving a message on
+            our contact form
+          </p>
+          <div class="contacto__redes-sociales">
+            <div class="contacto__red">
+              <div class="contacto__imagen-contenedor">
+                <img
+                  src="./build/img/facebook.svg"
+                  alt="img 1"
+                  class="contacto__imagen"
+                />
+              </div>
+              <div class="contacto__contenido">
+                <p class="contacto__titulo">Facebook:</p>
+                <p class="contacto__enlace">Fairlexbo</p>
+              </div>
+            </div>
+            <!-- end red social -->
+            <div class="contacto__red">
+              <div class="contacto__imagen-contenedor">
+                <img
+                  src="./build/img/email.svg"
+                  alt="img 1"
+                  class="contacto__imagen"
+                />
+              </div>
+              <div class="contacto__contenido">
+                <p class="contacto__titulo">E-mail:</p>
+                <p class="contacto__enlace">hola@fairlexbo.com</p>
+              </div>
+            </div>
+            <!-- end red social -->
+            <div class="contacto__red">
+              <div class="contacto__imagen-contenedor">
+                <img
+                  src="./build/img/whatsapp.svg"
+                  alt="img 1"
+                  class="contacto__imagen"
+                />
+              </div>
+              <div class="contacto__contenido">
+                <p class="contacto__titulo">Whatsapp:</p>
+                <p class="contacto__enlace">+591 60329329</p>
+              </div>
+            </div>
+            <!-- end red social -->
+          </div>
+        </div>
+        <div class="contacto-mensaje">
+          <h2 class="contacto-mensaje__heading">
+            Leave Us a <span> Message</span>
+          </h2>
+          <div class="contacto-mensaje__inputs">
+            <input
+              placeholder="Name *"
+              type="text"
+              class="contacto-mensaje__nombre"
+            />
+            <input
+              placeholder="Email *"
+              type="email"
+              class="contacto-mensaje__email"
+            />
+            <textarea
+              placeholder="Message*... "
+              name=""
+              class="contacto-mensaje__texto"
+              id=""
+              cols="5"
+              rows="9"
+            ></textarea>
+          </div>
+          <a href="#" class="contacto-mensaje__enlace">Send</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__grid contenedor">
+        <div class="footer__box">
+          <h3 class="footer__heading">Navigation</h3>
+          <nav class="footer__navegacion">
+            <a href="about.html" class="footer__link">About Us</a>
+            <a href="services.html" class="footer__link">Services</a>
+            <a href="blog_en.html" class="footer__link">Blog</a>
+            <a href="#" class="footer__link">Proforma</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+          </nav>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__heading">What Do We Focus On?</h3>
+          <p class="footer__texto">
+            We focus on our clients, addressing their legal issues with expert
+            attention. We provide efficient and professional legal solutions to
+            safeguard their rights and resolve their legal concerns.
+          </p>
+        </div>
+        <div class="footer__box">
+          <img src="build/img/fairlexlogo1.png" alt="imagen logo" />
+        </div>
+      </div>
+      <p class="footer__copyright">All Rights Reserved Fairlexbo 2023</p>
+    </footer>
+    <a
+      href="https://api.whatsapp.com/send?phone=59160329329"
+      target="_blank"
+      id="whatsapp-button"
+    >
+      <img src="/build/img/message.svg" alt="WhatsApp" />
+    </a>
+  </body>
+</html>
